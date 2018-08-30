@@ -1,0 +1,42 @@
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Welcome to help option
+======================
+
+Valid command line forms:
+
+DIR [drive:][path][filename] [/C] [/H] [/L] [/O] [/R]
+	eg: txtproc inputfile.txt [/C /H /L /O /R]
+
+DIR [drive:][path]
+	eg: txtproc
+
+DIR [drive:][/?]
+	eg: txtproc /?
+
+[drive:][path][filename]
+
+/C		Instructs program to search inputfile and locate
+		all the occurrence of character.Character and count
+		appear in report.txt file.
+
+/H		The /H parameter instructs the program to draw a histogram of the
+		contents of the input file.
+
+/L		The /L parameter instructs the program to search an input file
+		and locate all occurences of a string in it.
+
+/O		The /O parameter specfies the name of the output file created because of
+ 		a /R parameter.
+
+/R		The /R parameter instructs the program to search an input file, locate
+		all occurences of string1 and replace each by string2.
+
+drive:][path]
+[drive:][/?]
+
+Displays help option
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
